@@ -1,5 +1,33 @@
 # cont
 
+
+
+Check installations:
+
+# Docker
+docker --version
+docker run hello-world
+
+# Kubectl
+kubectl version --client
+kubectl get nodes
+
+# Minikube
+minikube version
+minikube start --driver=docker
+minikube status
+
+# Git
+git --version
+git clone https://github.com/octocat/Hello-World.git
+
+# Java
+java -version
+javac -version
+
+
+
+
 Go to 
 https://github.com/manikantabandaru/CollegeApp
 
@@ -27,6 +55,10 @@ docker images
 Run in interactive mode:
 
 docker run -p 8081:8081 workshop
+
+Check on:
+
+http://localhost:8081/workshop
 
 Stop the Docker image by clicking on CTRL + C
 
